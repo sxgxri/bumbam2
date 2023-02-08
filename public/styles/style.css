@@ -88,6 +88,8 @@ border: none;
 font-size: 16px;
 color: #171717;
 background-color: rgb(231, 228, 228);
+outline:none;
+padding-left: 10px ;
 }
 
 .page-name{
@@ -123,12 +125,15 @@ background-color: rgb(231, 228, 228);
 }
 
 
-.auth{
+.sign-in{
     width: 400px;
     margin-top: 30px;
+    border: solid rgb(173, 173, 173) 1px;
+    padding: 40px;
+    border-radius: 15px 0 15px 0;
 }
 
-.auth form{
+.sign-in form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,8 +151,10 @@ form a{
     color: white;
 }
 
-#auth-btn{
-    background-color:#a91fff;
+#sign-in-btn{
+    background: linear-gradient(45deg,green,rgb(43, 175, 72));
+    /* background-color: #1aad46; */
+    /* background-color:#a91fff; */
     border: none;
     color: white;
     width: 305px;
@@ -155,6 +162,7 @@ form a{
     box-shadow: inset -1px -1px 2px 1px black;
     font-weight: 600;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .recovery{
@@ -167,4 +175,30 @@ form a{
 
 .recovery:hover{
     text-decoration: underline;
+}
+
+
+.or{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.block{
+    min-height: 100px;
+    width: 1250px;
+    border: solid white 1px;
+    margin: 20px;
+}
+
+.block a{
+    text-decoration: none;
+}
+
+.blockimg{
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/blockimg.jpg);
 }

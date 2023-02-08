@@ -34,21 +34,35 @@
 
     <main>
         <div class="search">
-            <input type="text" placeholder=" Поиск по сайту...">
+            <input type="text" placeholder="Поиск по сайту...">
         </div>
         <div class="main-container">
             <div class="page-name">
                 <a>Авторизация</a>
             </div>
-                <div class="auth">
-                    <form action="">
-                        <a>Войдите в аккаунт</a>
-                        <input type="text" placeholder=" Введите логин">
-                        <input type="text" placeholder=" Введите пароль">
-                        <a class="recovery" href="{{ route('login') }}">Забыли пароль?</a>
-                        <input type="button" id="auth-btn" value="ВОЙТИ">
-                    </form>
-                </div>
+
+   
+                    <div class="sign-in">
+                            <form action="">
+                                <a>Войдите в аккаунт</a>
+                                <input type="text" placeholder=" Введите логин">
+                                <input type="text" placeholder=" Введите пароль">
+                                <a class="recovery" href="{{ route('login') }}">Забыли пароль?</a>
+                                <input type="submit" id="sign-in-btn" value="ВОЙТИ">
+                            </form>
+                        </div>
+                        
+                            <p class="or">ИЛИ</p>
+
+                        <div class="sign-in">
+                            <form action="">
+                                <a>Зарегистрируйтесь</a>
+                                <input type="text" placeholder=" Введите логин">
+                                <input type="text" placeholder=" Введите пароль">
+                                <a class="recovery" href="{{ route('login') }}">Забыли пароль?</a>
+                                <input type="submit" id="sign-in-btn" value="Зарегистрироваться">
+                            </form>
+                        </div> 
         </div>
     </main>
 

@@ -34,7 +34,7 @@
 
     <main>
         <div class="search">
-            <input type="text" placeholder=" Поиск по сайту...">
+            <input type="text" placeholder="Поиск по сайту...">
         </div>
         <div class="main-container">
             <div class="page-name">

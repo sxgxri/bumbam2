@@ -34,12 +34,23 @@
 
     <main>
     <div class="search">
-            <input type="text" placeholder=" Поиск по сайту...">
+            <input type="text" placeholder="Поиск по сайту...">
         </div>
         <div class="main-container">
             <div class="page-name">
                 <a>Новости</a>
             </div>
+
+            <div class="block">
+                <div class="blockimg">
+
+                </div>
+                <div class="blocktext">
+                    <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum iure fugit corporis debitis. Ex, deserunt fugiat. A, in excepturi?</a>
+                </div>
+               
+            </div>
+
         </div>
         <div class="up">
             <a href="#up" id="button-up"><img src="images/up1.png"></a>      <!-- ЯКОРЬ -->
